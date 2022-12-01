@@ -1,3 +1,12 @@
+# Site Alura Space
+##  Alura curso: React com JavaScript: lidando com arquivos estáticos
+- em JavaScipt
+- Criação de componentes e pages
+- CSS modules
+
+#### Vercel Pages: 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
