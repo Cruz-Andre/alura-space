@@ -1,8 +1,9 @@
-import Banner from "../../components/Banner/Banner";
-import Footer from "../../components/Footer/Footer";
-import Gallery from "../../components/Gallery/Gallery";
-import Header from "../../components/Header/Header";
-import Menu from "../../components/Menu/Menu";
+import Banner from "components/Banner/Banner";
+import Footer from "components/Footer/Footer";
+import Gallery from "components/Gallery/Gallery";
+import Header from "components/Header/Header";
+import Menu from "components/Menu/Menu";
+import Popular from "components/Popular/Popular";
 
 import styles from './FrontPage.module.scss'
 
@@ -16,10 +17,11 @@ export default function FrontPage() {
           <Menu />
           <Banner />
         </section>
+        <div className={styles.gallery}>
+          <Gallery />
+          <Popular />
+        </div>
       </main>
-      <div className={styles.gallery}>
-        <Gallery />
-      </div>
       <Footer />
     </>
   )

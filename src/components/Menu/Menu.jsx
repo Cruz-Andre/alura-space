@@ -1,8 +1,8 @@
-import home from '../../assets/icons/home-ativo.png'
-import maisCurtidas from '../../assets/icons/mais-curtidas-inativo.png'
-import maisVistas from '../../assets/icons/mais-vistas-inativo.png'
-import novas from '../../assets/icons/novas-inativo.png'
-import surpreendaMe from '../../assets/icons/surpreenda-me-inativo.png'
+import home from 'assets/icons/home-ativo.png'
+import maisCurtidas from 'assets/icons/mais-curtidas-inativo.png'
+import maisVistas from 'assets/icons/mais-vistas-inativo.png'
+import novas from 'assets/icons/novas-inativo.png'
+import surpreendaMe from 'assets/icons/surpreenda-me-inativo.png'
 
 import styles from './Menu.module.scss'
 

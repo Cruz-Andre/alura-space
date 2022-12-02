@@ -1,6 +1,6 @@
-import facebook from '../../assets/icons/facebook.svg'
-import twitter from '../../assets/icons/twitter.svg'
-import instagram from '../../assets/icons/instagram.svg'
+import facebook from 'assets/icons/facebook.svg'
+import twitter from 'assets/icons/twitter.svg'
+import instagram from 'assets/icons/instagram.svg'
 import styles from './Footer.module.scss'
 
 export default function Footer() {

@@ -1,29 +1,34 @@
-import Tags from '../Tags/Tags'
-import fotos from './fotos.json'
-import favorito from '../../assets/icons/favorito.png'
-import open from '../../assets/icons/open.png'
+import photos from './fotos.json'
+import Tags from 'components/Tags/Tags'
+import Cards from './Cards/Cards'
+
 import styles from './Gallery.module.scss'
+import { useState } from 'react'
 
 export default function Gallery() {
+  const [photosObj, setPhotosObj] = useState(photos)
+
+  // um array só com as tags e sem repetição de tags. Usando 'spread operator' e 'new Set'
+  const tags = [...new Set(photos.map(photo => photo.tag))]
+
+  // // Um array só com as tags
+  // const tags = photos.map(photo => photo.tag)
+  // // Filtrar o array para retornar só valores distintos
+  // const tagsUnicas = tags.filter((tag, index) => tags.indexOf(tag) === index)
+  // console.log(tagsUnicas)
+  
+  const photosFilter = (tag) => {
+    const photosFiltered = photos.filter(photo => {
+      return photo.tag === tag
+    })
+    setPhotosObj(photosFiltered)
+  }
+
   return (
     <section className={styles.gallery}>
       <h2>Navegue pela galeria</h2>
-      <Tags />
-      <ul className={styles.gallery__cards}>
-        {fotos.map(foto => (
-          <li key={foto.id} className={styles.gallery__card}>
-            <img className={styles.gallery__image} src={foto.imagem} alt={foto.titulo} />
-            <p className={styles.gallery__description}>{foto.titulo}</p>
-            <div>
-              <p>{foto.creditos}</p>
-              <span>
-                <img src={favorito} alt='Ícone coração de curtir' />
-                <img src={open} alt='Ícone de abrir imagem maior' />
-              </span>
-            </div>
-          </li>
-        ))}
-      </ul>
+      <Tags tags={tags} photosFilter={photosFilter} setPhotosObj={setPhotosObj}/>
+      <Cards photos={photosObj} />
     </section>
   )
 }

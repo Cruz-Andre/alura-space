@@ -3,7 +3,7 @@
 - em JavaScipt
 - Criação de componentes e pages
 - CSS modules
-
+## TO-DO: Ajustar a responsividade mobile
 #### Vercel Pages: 
 
 
