@@ -5,7 +5,7 @@ import styles from './Popular.module.scss'
 
 export default function Popular() {
   return (
-    <aside className={styles.popular}>
+    <section className={styles.popular}>
       <h2>Populares</h2>
       <ul className={styles.popular__images}>
         {popularPhotos.map(photo => (
@@ -15,6 +15,6 @@ export default function Popular() {
         ))}
       </ul>
       <Button>Ver mais fotos</Button>
-    </aside>
+    </section>
   )
 }

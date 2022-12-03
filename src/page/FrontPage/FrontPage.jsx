@@ -19,7 +19,7 @@ export default function FrontPage() {
         </section>
         <div className={styles.gallery}>
           <Gallery />
-          <Popular />
+          {/* <Popular /> */}
         </div>
       </main>
       <Footer />

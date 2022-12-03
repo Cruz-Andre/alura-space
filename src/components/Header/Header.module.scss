@@ -6,6 +6,12 @@
   align-items: center;
   margin: 1.5rem 24px;
 
+  @media (max-width: 980px) {
+    margin-top: 0;
+    flex-direction: column;
+    
+  }
+
   &__container {
     display: flex;
     justify-content: space-between;
@@ -14,6 +20,10 @@
     width: 33%;
     position: relative;
     z-index: 0;
+    
+    @media (max-width: 980px) {
+      width: 100%;      
+    }
 
     &::before {
       content: "";

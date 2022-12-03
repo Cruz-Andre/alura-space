@@ -3,6 +3,9 @@
 .gallery {
   font-family: $fonte-normal;
   margin-bottom: 2rem;
+  @media (max-width: 980px) {
+    text-align: center;
+  }
 
   h2 {
     color: $roxo;

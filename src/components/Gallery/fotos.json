@@ -1,6 +1,6 @@
 [
   {
-    "titulo": "Nome da Foto",
+    "titulo": "Constelação de Cygnus",
     "creditos": "Alura Space",
     "imagem": "/assets/images/gallery/foto-1.png",
     "id": "1",
@@ -14,49 +14,49 @@
     "tag": "Estrelas"
   },
   {
-    "titulo": "Nome da Foto",
+    "titulo": "Lua",
     "creditos": "Alura Space",
     "imagem": "/assets/images/gallery/foto-3.png",
     "id": "3",
-    "tag": "Lua"
+    "tag": "Luas"
   },
   {
-    "titulo": "Nome da Foto",
+    "titulo": "Galáxia de Andrômeda",
     "creditos": "Alura Space",
     "imagem": "/assets/images/gallery/foto-4.png",
     "id": "4",
     "tag": "Galáxias"
   },
   {
-    "titulo": "Nome da Foto",
+    "titulo": "Nebulosa Roseta",
     "creditos": "Alura Space",
     "imagem": "/assets/images/gallery/foto-5.png",
     "id": "5",
-    "tag": "Estrelas"
-  },
-  {
-    "titulo": "Nome da Foto",
-    "creditos": "Alura Space",
-    "imagem": "/assets/images/gallery/foto-6.png",
-    "id": "6",
     "tag": "Nebulosas"
   },
   {
-    "titulo": "Nome da Foto",
+    "titulo": "Via Láctea",
+    "creditos": "Alura Space",
+    "imagem": "/assets/images/gallery/foto-6.png",
+    "id": "6",
+    "tag": "Galáxias"
+  },
+  {
+    "titulo": "Galáxia de Andrômeda",
     "creditos": "Alura Space",
     "imagem": "/assets/images/gallery/foto-7.png",
     "id": "7",
     "tag": "Galáxias"
   },
   {
-    "titulo": "Nome da Foto",
+    "titulo": "Via Láctea",
     "creditos": "Alura Space",
     "imagem": "/assets/images/gallery/foto-8.png",
     "id": "8",
-    "tag": "Nebulosas"
+    "tag": "Galáxias"
   },
   {
-    "titulo": "Nome da Foto",
+    "titulo": "Sirius",
     "creditos": "Alura Space",
     "imagem": "/assets/images/gallery/foto-9.png",
     "id": "9",
