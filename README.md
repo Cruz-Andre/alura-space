@@ -4,7 +4,7 @@
 - Criação de componentes e pages
 - CSS modules
 ## ~~TO-DO: Ajustar a responsividade mobile~~ :white_check_mark:
-#### Vercel Pages: 
+#### Vercel Pages: https://alura-space-theta.vercel.app/
 
 
 # Getting Started with Create React App
